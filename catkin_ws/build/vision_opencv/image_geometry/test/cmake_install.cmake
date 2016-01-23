@@ -1,8 +1,8 @@
-# Install script for directory: /home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/image_geometry/test
+# Install script for directory: /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/image_geometry/test
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/yongbo/Documents/PennApps/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

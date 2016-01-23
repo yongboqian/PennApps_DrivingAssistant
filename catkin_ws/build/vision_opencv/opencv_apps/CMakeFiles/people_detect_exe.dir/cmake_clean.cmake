@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/people_detect_exe.dir/src/node/people_detect.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/people_detect.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/people_detect"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/people_detect.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/people_detect"
 )
 
 # Per-language clean rules from dependency scanning.

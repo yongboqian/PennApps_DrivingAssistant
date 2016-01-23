@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build
 
 # Utility rule file for _snap_vision_msgs_generate_messages_check_deps_Detection.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps/catkin_ws/build
 include snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/progress.make
 
 snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build/snap_vision_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py snap_vision_msgs /home/yongbo/Documents/PennApps/catkin_ws/src/snap_vision_msgs/msg/Detection.msg snap_vision_msgs/BoundingBox
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/snap_vision_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py snap_vision_msgs /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_vision_msgs/msg/Detection.msg snap_vision_msgs/BoundingBox
 
 _snap_vision_msgs_generate_messages_check_deps_Detection: snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection
 _snap_vision_msgs_generate_messages_check_deps_Detection: snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/build.make
@@ -60,10 +60,10 @@ snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detec
 .PHONY : snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/build
 
 snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/clean:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build/snap_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/cmake_clean.cmake
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/snap_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/cmake_clean.cmake
 .PHONY : snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/clean
 
 snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/depend:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps/catkin_ws/src /home/yongbo/Documents/PennApps/catkin_ws/src/snap_vision_msgs /home/yongbo/Documents/PennApps/catkin_ws/build /home/yongbo/Documents/PennApps/catkin_ws/build/snap_vision_msgs /home/yongbo/Documents/PennApps/catkin_ws/build/snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_vision_msgs /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/snap_vision_msgs /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : snap_vision_msgs/CMakeFiles/_snap_vision_msgs_generate_messages_check_deps_Detection.dir/depend
 

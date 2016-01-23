@@ -1,8 +1,8 @@
-prefix=/home/yongbo/Documents/PennApps/catkin_ws/install
+prefix=/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install
 
 Name: snap_vision
 Description: Description of snap_vision
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/install/lib 
+Libs: -L/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/lib 
 Requires: 

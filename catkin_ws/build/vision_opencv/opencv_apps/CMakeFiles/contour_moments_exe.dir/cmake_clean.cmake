@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/contour_moments_exe.dir/src/node/contour_moments.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/contour_moments.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/contour_moments"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/contour_moments.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/contour_moments"
 )
 
 # Per-language clean rules from dependency scanning.

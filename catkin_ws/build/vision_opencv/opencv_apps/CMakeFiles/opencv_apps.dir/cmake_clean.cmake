@@ -17,8 +17,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/opencv_apps.dir/src/nodelet/phase_corr_nodelet.cpp.o"
   "CMakeFiles/opencv_apps.dir/src/nodelet/segment_objects_nodelet.cpp.o"
   "CMakeFiles/opencv_apps.dir/src/nodelet/watershed_segmentation_nodelet.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/libopencv_apps.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/libopencv_apps.so"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/libopencv_apps.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/libopencv_apps.so"
 )
 
 # Per-language clean rules from dependency scanning.

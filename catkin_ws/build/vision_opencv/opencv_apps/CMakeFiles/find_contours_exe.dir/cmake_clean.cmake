@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/find_contours_exe.dir/src/node/find_contours.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/find_contours.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/find_contours"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/find_contours.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/find_contours"
 )
 
 # Per-language clean rules from dependency scanning.

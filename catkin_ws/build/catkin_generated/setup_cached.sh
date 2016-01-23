@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/yongbo/Documents/PennApps/catkin_ws/build"
+export LD_LIBRARY_PATH="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/x86_64-linux-gnu:/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/x86_64-linux-gnu:/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib:/home/yongbo/Documents/PennApps/catkin_ws/devel/lib:/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib:/opt/ros/indigo/lib:/opt/ros/indigo/lib/python2.7/dist-packages"
+export PKG_CONFIG_PATH="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/pkgconfig:/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/pkgconfig:/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build"
+export ROS_PACKAGE_PATH="/home/yongbo/Documents/PennApps/catkin_ws/src:/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src:/home/yongbo/Documents/snap/codes/snap/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"

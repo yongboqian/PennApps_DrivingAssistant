@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/audio_common_msgs_generate_messages_cpp"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/include/audio_common_msgs/AudioData.h"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include/audio_common_msgs/AudioData.h"
 )
 
 # Per-language clean rules from dependency scanning.

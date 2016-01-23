@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/simple_example_exe.dir/src/node/simple_example.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/simple_example.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/simple_example"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/simple_example.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/simple_example"
 )
 
 # Per-language clean rules from dependency scanning.

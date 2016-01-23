@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/audio_play.dir/src/audio_play.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/audio_play/audio_play.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/audio_play/audio_play"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/audio_play/audio_play.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/audio_play/audio_play"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/goodfeature_track_exe.dir/src/node/goodfeature_track.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/goodfeature_track.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/goodfeature_track"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/goodfeature_track.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/goodfeature_track"
 )
 
 # Per-language clean rules from dependency scanning.

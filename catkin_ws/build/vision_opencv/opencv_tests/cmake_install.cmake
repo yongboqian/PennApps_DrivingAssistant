@@ -1,8 +1,8 @@
-# Install script for directory: /home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/opencv_tests
+# Install script for directory: /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/opencv_tests
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/yongbo/Documents/PennApps/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_tests.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_tests.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests/cmake" TYPE FILE FILES
-    "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig.cmake"
-    "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig-version.cmake"
+    "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig.cmake"
+    "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests" TYPE FILE FILES "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/opencv_tests/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests" TYPE FILE FILES "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/opencv_tests/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

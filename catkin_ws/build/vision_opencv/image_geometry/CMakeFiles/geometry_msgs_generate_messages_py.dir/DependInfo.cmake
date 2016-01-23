@@ -17,7 +17,7 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/ros/indigo/include"
   "/usr/local/include/opencv"
   "/usr/local/include"
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/image_geometry/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/image_geometry/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

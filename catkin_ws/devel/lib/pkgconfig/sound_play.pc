@@ -1,8 +1,8 @@
-prefix=/home/yongbo/Documents/PennApps/catkin_ws/devel
+prefix=/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel
 
 Name: sound_play
 Description: Description of sound_play
 Version: 0.2.7
-Cflags: -I/home/yongbo/Documents/PennApps/catkin_ws/devel/include -I/home/yongbo/Documents/PennApps/catkin_ws/src/voice_recog/audio_common/sound_play/include
-Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/devel/lib 
+Cflags: -I/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include -I/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/voice_recog/audio_common/sound_play/include
+Libs: -L/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib 
 Requires: message_runtime actionlib_msgs

@@ -16,8 +16,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/include"
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge/include"
   "/home/yongbo/Documents/snap/codes/snap/catkin_ws/src/image_common/image_transport/include"
   "/opt/ros/indigo/include"
   "/usr/local/include/opencv"

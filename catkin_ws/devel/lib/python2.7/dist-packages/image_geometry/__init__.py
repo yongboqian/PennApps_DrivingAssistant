@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/image_geometry/src".split(";")
+__extended_path = "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/image_geometry/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

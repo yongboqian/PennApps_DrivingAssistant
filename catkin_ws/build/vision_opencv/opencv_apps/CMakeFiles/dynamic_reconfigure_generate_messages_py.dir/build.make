@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_py.
 
@@ -59,10 +59,10 @@ vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.di
 .PHONY : vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 
 vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_apps && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 
 vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps/catkin_ws/src /home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/opencv_apps /home/yongbo/Documents/PennApps/catkin_ws/build /home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_apps /home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/opencv_apps /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_apps /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vision_opencv/opencv_apps/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 

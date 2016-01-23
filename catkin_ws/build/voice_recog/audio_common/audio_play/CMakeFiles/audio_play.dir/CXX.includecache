@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yongbo/Documents/PennApps/catkin_ws/devel/include/audio_common_msgs/AudioData.h
+/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include/audio_common_msgs/AudioData.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/yongbo/Documents/PennApps/catkin_ws/src/voice_recog/audio_common/audio_play/src/audio_play.cpp
+/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/voice_recog/audio_common/audio_play/src/audio_play.cpp
 gst/gst.h
 -
 gst/app/gstappsrc.h
@@ -32,7 +32,7 @@ ros/ros.h
 boost/thread.hpp
 -
 audio_common_msgs/AudioData.h
-/home/yongbo/Documents/PennApps/catkin_ws/src/voice_recog/audio_common/audio_play/src/audio_common_msgs/AudioData.h
+/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/voice_recog/audio_common/audio_play/src/audio_common_msgs/AudioData.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h

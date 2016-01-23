@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/edge_detection_exe.dir/src/node/edge_detection.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/edge_detection.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/edge_detection"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/edge_detection.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/edge_detection"
 )
 
 # Per-language clean rules from dependency scanning.

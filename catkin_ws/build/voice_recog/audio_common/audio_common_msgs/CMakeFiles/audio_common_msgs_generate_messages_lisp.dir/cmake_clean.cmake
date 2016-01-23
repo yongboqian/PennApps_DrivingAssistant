@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/audio_common_msgs_generate_messages_lisp"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/share/common-lisp/ros/audio_common_msgs/msg/AudioData.lisp"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/share/common-lisp/ros/audio_common_msgs/msg/AudioData.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

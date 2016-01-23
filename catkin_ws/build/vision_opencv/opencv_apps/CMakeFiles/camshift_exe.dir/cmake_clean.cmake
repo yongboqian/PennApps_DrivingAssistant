@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/camshift_exe.dir/src/node/camshift.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/camshift.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/camshift"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/camshift.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/camshift"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build
 
 # Utility rule file for sound_play_genlisp.
 
@@ -59,10 +59,10 @@ voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/build: sou
 .PHONY : voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/build
 
 voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/clean:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/sound_play && $(CMAKE_COMMAND) -P CMakeFiles/sound_play_genlisp.dir/cmake_clean.cmake
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/sound_play && $(CMAKE_COMMAND) -P CMakeFiles/sound_play_genlisp.dir/cmake_clean.cmake
 .PHONY : voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/clean
 
 voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/depend:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps/catkin_ws/src /home/yongbo/Documents/PennApps/catkin_ws/src/voice_recog/audio_common/sound_play /home/yongbo/Documents/PennApps/catkin_ws/build /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/sound_play /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/voice_recog/audio_common/sound_play /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/sound_play /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : voice_recog/audio_common/sound_play/CMakeFiles/sound_play_genlisp.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps/catkin_ws/build
+CMAKE_BINARY_DIR = /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build
 
 # Utility rule file for audio_common_msgs_generate_messages.
 
@@ -59,10 +59,10 @@ voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate
 .PHONY : voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/build
 
 voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/clean:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/audio_common_msgs && $(CMAKE_COMMAND) -P CMakeFiles/audio_common_msgs_generate_messages.dir/cmake_clean.cmake
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/audio_common_msgs && $(CMAKE_COMMAND) -P CMakeFiles/audio_common_msgs_generate_messages.dir/cmake_clean.cmake
 .PHONY : voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/clean
 
 voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/depend:
-	cd /home/yongbo/Documents/PennApps/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps/catkin_ws/src /home/yongbo/Documents/PennApps/catkin_ws/src/voice_recog/audio_common/audio_common_msgs /home/yongbo/Documents/PennApps/catkin_ws/build /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/audio_common_msgs /home/yongbo/Documents/PennApps/catkin_ws/build/voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/voice_recog/audio_common/audio_common_msgs /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/audio_common_msgs /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : voice_recog/audio_common/audio_common_msgs/CMakeFiles/audio_common_msgs_generate_messages.dir/depend
 

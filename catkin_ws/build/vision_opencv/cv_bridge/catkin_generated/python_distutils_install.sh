@@ -14,17 +14,17 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge"
+echo_and_run cd "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/yongbo/Documents/PennApps/catkin_ws/install/lib/python2.7/dist-packages:/home/yongbo/Documents/PennApps/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/yongbo/Documents/PennApps/catkin_ws/build" \
+    PYTHONPATH="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/lib/python2.7/dist-packages:/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build" \
     "/usr/bin/python" \
-    "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge/setup.py" \
-    build --build-base "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/cv_bridge" \
+    "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge/setup.py" \
+    build --build-base "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/cv_bridge" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/yongbo/Documents/PennApps/catkin_ws/install" --install-scripts="/home/yongbo/Documents/PennApps/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install" --install-scripts="/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/bin"

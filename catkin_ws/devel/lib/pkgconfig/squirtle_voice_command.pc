@@ -1,8 +1,8 @@
-prefix=/home/yongbo/Documents/PennApps/catkin_ws/devel
+prefix=/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel
 
 Name: squirtle_voice_command
 Description: Description of squirtle_voice_command
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/devel/lib 
+Libs: -L/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib 
 Requires: 

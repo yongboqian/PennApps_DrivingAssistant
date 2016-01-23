@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/phase_corr_exe.dir/src/node/phase_corr.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/phase_corr.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/phase_corr"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/phase_corr.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/phase_corr"
 )
 
 # Per-language clean rules from dependency scanning.

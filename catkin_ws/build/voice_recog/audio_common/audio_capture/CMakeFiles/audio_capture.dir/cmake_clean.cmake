@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/audio_capture/audio_capture.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/audio_capture/audio_capture"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/audio_capture/audio_capture.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/audio_capture/audio_capture"
 )
 
 # Per-language clean rules from dependency scanning.

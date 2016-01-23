@@ -18,9 +18,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/opencv"
   "/usr/local/include"
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge/include"
   "/opt/ros/indigo/include"
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge/test/../src"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge/test/../src"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

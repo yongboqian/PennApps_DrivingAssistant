@@ -1,8 +1,8 @@
-prefix=/home/yongbo/Documents/PennApps/catkin_ws/install
+prefix=/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install
 
 Name: audio_play
 Description: Description of audio_play
 Version: 0.2.7
 Cflags: 
-Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/install/lib 
+Libs: -L/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/lib 
 Requires: 

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/convex_hull_exe.dir/src/node/convex_hull.cpp.o"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/convex_hull.pdb"
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/opencv_apps/convex_hull"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/convex_hull.pdb"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib/opencv_apps/convex_hull"
 )
 
 # Per-language clean rules from dependency scanning.

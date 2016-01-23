@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/opencv_apps/src/node/segment_objects.cpp" "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/opencv_apps/CMakeFiles/segment_objects_exe.dir/src/node/segment_objects.cpp.o"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/opencv_apps/src/node/segment_objects.cpp" "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/opencv_apps/CMakeFiles/segment_objects_exe.dir/src/node/segment_objects.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,13 +17,13 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yongbo/Documents/PennApps/catkin_ws/build/vision_opencv/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/build/vision_opencv/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/yongbo/Documents/PennApps/catkin_ws/devel/include"
-  "/home/yongbo/Documents/PennApps/catkin_ws/src/vision_opencv/cv_bridge/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include"
+  "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/vision_opencv/cv_bridge/include"
   "/home/yongbo/Documents/snap/codes/snap/catkin_ws/src/image_common/image_transport/include"
   "/opt/ros/indigo/include"
   "/usr/local/include/opencv"

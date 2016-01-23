@@ -1,8 +1,8 @@
-prefix=/home/yongbo/Documents/PennApps/catkin_ws/install
+prefix=/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install
 
 Name: opencv_apps
 Description: Description of opencv_apps
 Version: 1.11.9
-Cflags: -I/home/yongbo/Documents/PennApps/catkin_ws/install/include
-Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/install/lib 
+Cflags: -I/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/include
+Libs: -L/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install/lib 
 Requires: 

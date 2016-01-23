@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "audio_capture"
-PROJECT_SPACE_DIR = "/home/yongbo/Documents/PennApps/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install"
 PROJECT_VERSION = "0.2.7"

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/yongbo/Documents/PennApps/catkin_ws/devel/setup.sh
+    local-name: /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/setup.sh

@@ -67,14 +67,14 @@ set(snap_low_level_detectors_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(snap_low_level_detectors_SOURCE_PREFIX /home/yongbo/Documents/PennApps/catkin_ws/src/snap_low_level_detectors)
-  set(snap_low_level_detectors_DEVEL_PREFIX /home/yongbo/Documents/PennApps/catkin_ws/devel)
+  set(snap_low_level_detectors_SOURCE_PREFIX /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_low_level_detectors)
+  set(snap_low_level_detectors_DEVEL_PREFIX /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel)
   set(snap_low_level_detectors_INSTALL_PREFIX "")
   set(snap_low_level_detectors_PREFIX ${snap_low_level_detectors_DEVEL_PREFIX})
 else()
   set(snap_low_level_detectors_SOURCE_PREFIX "")
   set(snap_low_level_detectors_DEVEL_PREFIX "")
-  set(snap_low_level_detectors_INSTALL_PREFIX /home/yongbo/Documents/PennApps/catkin_ws/install)
+  set(snap_low_level_detectors_INSTALL_PREFIX /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/install)
   set(snap_low_level_detectors_PREFIX ${snap_low_level_detectors_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(snap_low_level_detectors_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/yongbo/Documents/PennApps/catkin_ws/devel/include;/home/yongbo/Documents/PennApps/catkin_ws/src/snap_low_level_detectors/include " STREQUAL " ")
+if(NOT "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include;/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_low_level_detectors/include " STREQUAL " ")
   set(snap_low_level_detectors_INCLUDE_DIRS "")
-  set(_include_dirs "/home/yongbo/Documents/PennApps/catkin_ws/devel/include;/home/yongbo/Documents/PennApps/catkin_ws/src/snap_low_level_detectors/include")
+  set(_include_dirs "/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/include;/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_low_level_detectors/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/yongbo/Documents/PennApps/catkin_ws/devel/include;/home/yongbo/Doc
         message(FATAL_ERROR "Project 'snap_low_level_detectors' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Nicu Stiurca <nstiurca@seas.upenn.edu>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'snap_low_level_detectors' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yongbo/Documents/PennApps/catkin_ws/src/snap_low_level_detectors/${idir}'.  Ask the maintainer 'Nicu Stiurca <nstiurca@seas.upenn.edu>' to fix it.")
+      message(FATAL_ERROR "Project 'snap_low_level_detectors' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/src/snap_low_level_detectors/${idir}'.  Ask the maintainer 'Nicu Stiurca <nstiurca@seas.upenn.edu>' to fix it.")
     endif()
     _list_append_unique(snap_low_level_detectors_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/yongbo/Documents/PennApps/catkin_ws/devel/lib;/home/yongbo/Documents/PennApps/catkin_ws/devel/lib;/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib;/home/yongbo/Documents/PennApps_DrivingAssistant/catkin_ws/devel/lib;/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
