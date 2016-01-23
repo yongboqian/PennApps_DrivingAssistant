@@ -1,0 +1,8 @@
+prefix=/home/yongbo/Documents/PennApps/catkin_ws/devel
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 1.11.9
+Cflags: -I/home/yongbo/Documents/PennApps/catkin_ws/devel/include
+Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/devel/lib 
+Requires: 

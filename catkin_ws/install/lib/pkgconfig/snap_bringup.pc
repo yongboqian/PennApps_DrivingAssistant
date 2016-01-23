@@ -1,0 +1,8 @@
+prefix=/home/yongbo/Documents/PennApps/catkin_ws/install
+
+Name: snap_bringup
+Description: Description of snap_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/install/lib 
+Requires: 

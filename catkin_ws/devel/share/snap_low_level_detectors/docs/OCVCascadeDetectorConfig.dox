@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~scale_factor" : \b [double] Parameter specifying how much the image size is reduced at each image scale min: 1.05, default: 1.2, max: 3.0
+- \b "~min_neighbors" : \b [int] Parameter specifying how many neighbors each candidate rectangle should have to retain it. min: 0, default: 10, max: 100
+- \b "~min_width" : \b [int] Minimum possible object width. Objects smaller than that are ignored. min: 0, default: 32, max: 1000
+- \b "~min_height" : \b [int] Minimum possible object height. Objects smaller than that are ignored. min: 0, default: 32, max: 1000
+- \b "~max_width" : \b [int] Maximum possible object width. Objects larger than that are ignored. min: 0, default: 512, max: 1000
+- \b "~max_height" : \b [int] Maximum possible object height. Objects larger than that are ignored. min: 0, default: 512, max: 1000
+- \b "~flags" : \b [int] Parameter with the same meaning for an old cascade as in the function cvHaarDetectObjects. It is not used for a new cascade. min: 0, default: 0, max: 1
+

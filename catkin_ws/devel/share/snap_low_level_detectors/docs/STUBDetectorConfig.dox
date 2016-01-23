@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~foo" : \b [double] Foo min: 1.01, default: 1.1, max: 5.0
+

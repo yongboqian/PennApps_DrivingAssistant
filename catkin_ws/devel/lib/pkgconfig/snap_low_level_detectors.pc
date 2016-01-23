@@ -1,0 +1,8 @@
+prefix=/home/yongbo/Documents/PennApps/catkin_ws/devel
+
+Name: snap_low_level_detectors
+Description: Description of snap_low_level_detectors
+Version: 0.1.0
+Cflags: -I/home/yongbo/Documents/PennApps/catkin_ws/devel/include -I/home/yongbo/Documents/PennApps/catkin_ws/src/snap_low_level_detectors/include
+Libs: -L/home/yongbo/Documents/PennApps/catkin_ws/devel/lib -lsnap_low_level_detectors
+Requires: actionlib nodelet cv_bridge image_transport snap_vision_msgs

@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_FlowArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_CircleArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Circle.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Line.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_MomentArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_ContourArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Flow.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RotatedRect.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Point2DArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_FlowArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_FaceArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Point2D.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_FlowStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_ContourArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Contour.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_CircleArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RotatedRectStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RotatedRectArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_LineArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Point2DArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RectArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Size.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_MomentArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Face.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RotatedRectArrayStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_RectArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_FaceArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Rect.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_LineArray.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Point2DStamped.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/_Moment.py"
+  "/home/yongbo/Documents/PennApps/catkin_ws/devel/lib/python2.7/dist-packages/opencv_apps/msg/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/opencv_apps_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

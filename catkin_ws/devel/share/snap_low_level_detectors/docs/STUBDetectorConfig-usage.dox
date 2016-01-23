@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="snap_low_level_detectors" pkg="snap_low_level_detectors" type="snap_low_level_detectors">
+  <param name="foo" type="double" value="1.1" />
+</node>
+\endverbatim
+

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "snap_low_level_detectors")
+set(snap_low_level_detectors_MAINTAINER "Nicu Stiurca <nstiurca@seas.upenn.edu>")
+set(snap_low_level_detectors_DEPRECATED "")
+set(snap_low_level_detectors_VERSION "0.1.0")
+set(snap_low_level_detectors_BUILD_DEPENDS "actionlib" "nodelet" "dynamic_reconfigure" "cv_bridge" "image_transport" "snap_vision_msgs")
+set(snap_low_level_detectors_RUN_DEPENDS "actionlib" "nodelet" "dynamic_reconfigure" "cv_bridge" "image_transport" "snap_vision_msgs")
+set(snap_low_level_detectors_BUILDTOOL_DEPENDS "catkin")

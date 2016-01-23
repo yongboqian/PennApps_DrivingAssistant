@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/yongbo/Documents/snap/codes/snap/catkin_ws/devel/lib;/opt/ros/indigo/lib")
