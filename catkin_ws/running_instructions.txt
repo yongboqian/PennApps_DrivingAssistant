@@ -1,0 +1,45 @@
+running camera
+
+roslaunch system_bringup camera.launch
+
+rosparam set usb_cam/pixel_format yuyv
+rosrun usb_cam usb_cam_node
+
+
+#to visualize:
+rosrun image_view image_view image:=/usb_cam/image_raw
+
+
+
+%Running face detector
+rosrun snap_low_level_detectors detector_manager_node
+
+rosservice call /detector_manager_node/load_detector "type: 'OCVCascadeDetector'"
+
+rosservice call /detector_manager_node/load_models "model_names: ['frontalface']"
+
+rosservice call /detector_manager_node/load_models "model_names: ['profileface']"
+
+rosservice call /detector_manager_node/start_stream "{topic_name: '/usb_cam/image_raw', queue_size: 3}"
+
+rviz
+
+rostopic echo /detector_manager_node/detections
+
+%%speech
+roslaunch squirtle_voice_command recognizer_soundplayer.launch
+
+&&arduino
+sudo chmod a+rw /dev/ttyACM0
+
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+
+%% MAIN
+rosrun system_bringup feedback.py
+rosrun system_bringup drivingFSM.Py
+
+%%debug
+rostopic echo /feedback/activeCmd
+rostopic echo /roll_val
+
+

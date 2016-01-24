@@ -12,6 +12,7 @@ ros::Publisher roll_val("roll_val", &roll_msg);
 
 char left[2] = "l";
 char right[2] = "r";
+char midd[2] = "m";
 
 LSM303C myIMU;
 
@@ -47,6 +48,11 @@ void loop()
      roll_msg.data = left;
      roll_val.publish(&roll_msg);
   }
+  if (Z<500 && Z>-500){
+     roll_msg.data = midd;
+     roll_val.publish(&roll_msg);
+  }
+      
   //roll_msg.data = (int)myIMU.readAccelY();
   
   nh.spinOnce();

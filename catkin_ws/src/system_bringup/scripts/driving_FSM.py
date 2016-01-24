@@ -58,24 +58,24 @@ class driving_FSM_node():
            os.system(cmd)
            cmd2 = "rosservice call /detector_manager_node/load_models 'model_names: ['profileface']'"
            os.system(cmd2)
-           os.system('rosrun rosserial_python serial_node.py /dev/ttyACM0')
-           rospy.sleep(3)
+           self.state = 'feedback'
            os.system("rostopic pub -1 /feedback/activeCmd std_msgs/Bool True")
-           
-     
+       
+      elif self.state == 'feedback':
            received_voice = self.listen("/recognizer/output")          
            if received_voice.data == 'end trip':
               self.state = 'end'
-      if self.state == 'end': 
+      elif self.state == 'end': 
          os.system("rosrun sound_play say.py 'trip ends. goodbye'")
+         self.state = 'free'
+         os.system("rostopic pub -1 /feedback/activeCmd std_msgs/Bool False")
          rospy.sleep(3)
-         self.state == 'free'
-          
-  
+         
+      
   def listen(self, topic):
       try:
          #import pdb; pdb.set_trace()
-         received_voice = rospy.client.wait_for_message(str(topic),String,timeout=10)
+         received_voice = rospy.client.wait_for_message(str(topic),String,timeout=1000)
       except Exception, e:
          #os.system("rosrun sound_play say.py 'I cannot hear you'")
          #rospy.sleep(2)
