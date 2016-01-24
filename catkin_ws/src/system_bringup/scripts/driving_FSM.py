@@ -65,8 +65,8 @@ class driving_FSM_node():
            received_voice = self.listen("/recognizer/output")          
            if received_voice.data == 'end trip':
               self.state = 'end'
-      elif self.state == 'end': 
-         os.system("rosrun sound_play say.py 'trip ends. goodbye'")
+      elif self.state == 'end':          
+         os.system("rosrun sound_play say.py 'trip ends. Have a nice day'")
          self.state = 'free'
          os.system("rostopic pub -1 /feedback/activeCmd std_msgs/Bool False")
          rospy.sleep(3)

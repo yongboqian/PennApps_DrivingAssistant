@@ -1,6 +1,0 @@
-<launch>
-   2   <node pkg="rosbag" type="play" name="rosbag" args="-d 2 "~/Desktop/rosbag_dataset/duck_hunt_2_0.bag"/>
-   3   <node name="extract" pkg="image_view" type="extract_images" respawn="false" output="screen" cwd="ROS_HOME">
-   4     <remap from="image" to="/camera/image_raw"/>
-   5   </node>
-   6 </launch>

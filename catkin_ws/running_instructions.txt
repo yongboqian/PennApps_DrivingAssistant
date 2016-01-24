@@ -1,5 +1,6 @@
-running camera
+roscore
 
+%%running camera
 roslaunch system_bringup camera.launch
 
 rosparam set usb_cam/pixel_format yuyv
